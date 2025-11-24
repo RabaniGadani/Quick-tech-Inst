@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.instagram {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+}
+
+.my {
+  min-width: max-content;
+  inset: -40px -20px auto auto;
+  transform: translate3d(-20.6667px, 60.6667px, 0px);
+}
+  
