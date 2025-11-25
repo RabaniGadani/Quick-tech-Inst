@@ -22,13 +22,13 @@ const applyFormSchema = z.object({
   address: z.string().min(1, "Address is required"),
   dateOfBirth: z.string().min(1, "Date of Birth is required"),
   gender: z.enum(["Male", "Female", "Other"], {
-    errorMap: () => ({ message: "Please select a gender" }),
+    message: "Please select a gender",
   }),
   qualification: z.enum(["Middle", "Matric", "Intermediate", "Bachelors", "Masters"], {
-    errorMap: () => ({ message: "Please select the highest qualification" }),
+    message: "Please select the highest qualification",
   }),
   course: z.enum(["DIT", "CIT", "OAT", "Graphic Designing"], {
-    errorMap: () => ({ message: "Please select a course" }),
+    message: "Please select a course",
   }),
 });
 
