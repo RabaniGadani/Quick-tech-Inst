@@ -22,7 +22,7 @@ const Contact = () => {
                             <IoMail className="text-[#044e83] text-4xl mr-4" />
                             <div>
                                 <h2 className="text-xl font-bold text-gray-800">Email</h2>
-                                <p className="text-gray-600"><a href="mailto:info@qktech.pk" className="text-blue-500">education@quicktech.com</a></p>
+                                <p className="text-gray-600"><a href="mailto:institutequicktech@gmail.com" className="text-blue-500">institutequicktech@gmail.com </a></p>
                             </div>
                         </div>
                         <div className="flex items-start p-6 border rounded-lg shadow-lg">
