@@ -21,7 +21,7 @@ export interface AdmitCardProps {
 
 const AdmitCard: React.FC<AdmitCardProps> = ({
   formData,
-  contactEmail = "education@quicktech.com"
+  contactEmail = "institutequicktech@gmail.com"
 }) => {
   return (
     <>
