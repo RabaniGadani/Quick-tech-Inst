@@ -37,7 +37,7 @@ function Footer() {
             <div>
               <a href="mailto:education@governorsindh.com" target='_blank' className='text-blue-800 underline flex items-center gap-2'>
                 <AiOutlineMail className='text-xl' />
-                education@quicktech.com
+                institutequicktech@gmail.com
               </a>
             </div>
           </div>
@@ -51,3 +51,4 @@ function Footer() {
 }
 
 export default Footer;
+
